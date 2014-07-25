@@ -1,0 +1,28 @@
+h1 {
+	color: red;
+	font-size: 48px;  
+	font-family: 'Copperplate', sans-serif;	
+}
+
+button {
+    display: inline-block;
+    position: relative;
+    color: #888;
+    text-shadow: 0 1px 0 rgba(255,255,255, 0.8);
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: helvetica, arial, sans-serif;
+    border-radius: 8px;
+    border: 0px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+body {
+	background: url(Images/rock_paper_scissors_japan.jpeg);
+	background-size: cover;
+}
+
