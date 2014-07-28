@@ -4,7 +4,7 @@ require './lib/game'
 
 class RockPaperScissors < Sinatra::Base
   
-  set :public_dir, Proc.new { File.join (root, "..", "public") }
+  # set :public_dir, Proc.new { File.join (root, "..", 'public') }
 
   get '/' do
     erb :index
@@ -25,6 +25,10 @@ class RockPaperScissors < Sinatra::Base
   	computer = generate_computer
   	@game = Game.new(player, computer)
   	erb :outcome
+  end
+
+  get "/restart_game" do
+    redirect to ('/play')
   end
 
   def generate_computer

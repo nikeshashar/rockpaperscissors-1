@@ -1,5 +1,6 @@
 h1 {
-	color: #888;
+	text-align: center;
+    color: #888;
 	font-size: 48px;  
 	font-family: 'Copperplate', sans-serif;	
     text-shadow:
@@ -10,6 +11,7 @@ h1 {
 }
 
 h2 {
+    text-align: center;
 	color: #888;
 	font-size: 36px;  
 	font-family: 'Copperplate', sans-serif;	
@@ -26,6 +28,32 @@ h2 {
 }
 
 button, .test1 {
+    display: block;
+    position: relative;
+    color: #888;
+    text-shadow: 0 1px 0 #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: helvetica, arial, sans-serif;
+    border-radius: 8px;
+    border: 0px;
+    margin: 0 auto;
+    width: 150px;
+}
+
+body {
+	background: url(Images/rock_paper_scissors_japan.jpeg);
+	background-size: cover;
+}
+
+/*
+THIS IS WHAT THE CENTERING WAS LINK BEFORE ENRIQUE HAPPENED!
+
+button, .test1 {
     display: inline-block;
     position: relative;
     color: #888;
@@ -38,13 +66,12 @@ button, .test1 {
     font-family: helvetica, arial, sans-serif;
     border-radius: 8px;
     border: 0px;
-	margin: 0px auto;
-	text-align: center;
+    margin: 0px auto;
+    text-align: center;
 }
 
 body {
-	background: url(Images/rock_paper_scissors_japan.jpeg);
-	background-size: cover;
-	text-align: center;
-}
-
+    background: url(Images/rock_paper_scissors_japan.jpeg);
+    background-size: cover;
+    text-align: center;
+}*/
