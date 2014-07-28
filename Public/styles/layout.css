@@ -46,7 +46,7 @@ button, .test1 {
 }
 
 body {
-	background: url(Images/rock_paper_scissors_japan.jpeg);
+	background: url("/Images/rock_paper_scissors_japan.jpeg");
 	background-size: cover;
 }
 
