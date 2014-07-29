@@ -3,8 +3,8 @@ require './lib/player'
 require './lib/game'
 
 class RockPaperScissors < Sinatra::Base
-  
-  set :public_folder, Proc.new { File.join( File.dirname(__FILE__), "public") }
+
+  set :public_dir, Proc.new { File.join( File.dirname(__FILE__), "public") }
 
   get '/' do
     erb :index
