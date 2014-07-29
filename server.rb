@@ -4,7 +4,8 @@ require './lib/game'
 
 class RockPaperScissors < Sinatra::Base
 
-  set :public, Proc.new { File.join( File.dirname(__FILE__), "public") }
+  set :root, "#{File.dirname(__FILE__)}"
+
 
   get '/' do
     erb :index
