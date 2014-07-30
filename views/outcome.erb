@@ -1,10 +1,10 @@
 <h1>RESULTS:</h1>
 <% if @game.winner == "Draw" %>
- <h2> It's a draw! </h2>
+ <h2> It's a draw. Try another weapon?</h2>
  <% elsif @game.winner.name == "computer" %>
- <h2> Game over! <%= @game.winner.pick %></h2>
+ <h2> Game over! The computer beat you with <%= @game.winner.pick %>!</h2>
 <% else %>
-<h2>You done it! <%= @game.winner.pick %> </h2>
+<h2>You done it - you beat the computer with <%= @game.winner.pick %>!</h2>
 <%end%>
 
 <form action='/register' method='POST'>

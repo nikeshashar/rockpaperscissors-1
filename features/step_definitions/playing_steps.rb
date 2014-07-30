@@ -1,5 +1,5 @@
-When(/^I click "(.*?)"$/) do |arg1|
-  click_button('newgame')
+When(/^I click "(.*?)"$/) do |button|
+  click_on(button)
 end
 
 When(/^I enter my name$/) do
@@ -7,7 +7,7 @@ When(/^I enter my name$/) do
 end
 
 Then(/^I should be ready to play$/) do
-  expect(page).to have_content("Welcome")
+  expect(page).to have_content("Choose your weapon Stephen")
 end
 
 Given(/^I've registered to play$/) do
