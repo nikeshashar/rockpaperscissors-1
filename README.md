@@ -37,7 +37,7 @@ cd rockpaperscissors-1
 rackup
 ```
 
-open your browser and go to [localhost:3000](http://localhost:3000)
+open your browser and go to [localhost:9292](http://localhost:9292)
 
 ### How to test it
 ```sh
